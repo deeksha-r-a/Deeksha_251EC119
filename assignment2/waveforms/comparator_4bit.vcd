@@ -1,0 +1,185 @@
+$date
+	Wed May 27 20:36:32 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module comparator_4bit_tb $end
+$var wire 1 ! A_less_B $end
+$var wire 1 " A_greater_B $end
+$var wire 1 # A_equal_B $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module uut $end
+$var wire 4 & A [3:0] $end
+$var wire 1 # A_equal_B $end
+$var wire 1 " A_greater_B $end
+$var wire 1 ! A_less_B $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 ( l3 $end
+$var wire 1 ) l2 $end
+$var wire 1 * l1 $end
+$var wire 1 + l0 $end
+$var wire 1 , g3 $end
+$var wire 1 - g2 $end
+$var wire 1 . g1 $end
+$var wire 1 / g0 $end
+$var wire 1 0 e3 $end
+$var wire 1 1 e2 $end
+$var wire 1 2 e1 $end
+$var wire 1 3 e0 $end
+$scope module c0 $end
+$var wire 1 4 a $end
+$var wire 1 5 b $end
+$var wire 1 3 equal $end
+$var wire 1 / greater $end
+$var wire 1 + less $end
+$upscope $end
+$scope module c1 $end
+$var wire 1 6 a $end
+$var wire 1 7 b $end
+$var wire 1 2 equal $end
+$var wire 1 . greater $end
+$var wire 1 * less $end
+$upscope $end
+$scope module c2 $end
+$var wire 1 8 a $end
+$var wire 1 9 b $end
+$var wire 1 1 equal $end
+$var wire 1 - greater $end
+$var wire 1 ) less $end
+$upscope $end
+$scope module c3 $end
+$var wire 1 : a $end
+$var wire 1 ; b $end
+$var wire 1 0 equal $end
+$var wire 1 , greater $end
+$var wire 1 ( less $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0;
+0:
+09
+08
+07
+06
+05
+04
+13
+12
+11
+10
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#10000
+0!
+0#
+1"
+02
+01
+1*
+1-
+0/
+17
+15
+18
+14
+b11 %
+b11 '
+b101 $
+b101 &
+#20000
+0"
+1!
+00
+1.
+11
+1(
+0*
+0-
+1;
+07
+05
+08
+16
+04
+b1000 %
+b1000 '
+b10 $
+b10 &
+#30000
+0!
+1#
+0.
+12
+0(
+10
+0-
+0/
+19
+17
+15
+1:
+18
+14
+b1111 %
+b1111 '
+b1111 $
+b1111 &
+#40000
+1"
+0!
+0#
+1.
+02
+1+
+03
+09
+07
+08
+04
+b1001 %
+b1001 '
+b1010 $
+b1010 &
+#50000
+0"
+1!
+13
+1(
+00
+0+
+0-
+19
+05
+0:
+18
+b1100 %
+b1100 '
+b110 $
+b110 &
+#60000
